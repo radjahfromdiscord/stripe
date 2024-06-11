@@ -1,4 +1,5 @@
-//Converting colors to proper format
+class Gradient {
+    //Converting colors to proper format
 function normalizeColor(hexCode) {
     return [(hexCode >> 16 & 255) / 255, (hexCode >> 8 & 255) / 255, (255 & hexCode) / 255]
   } ["SCREEN", "LINEAR_LIGHT"].reduce((hexCode, t, n) => Object.assign(hexCode, {
@@ -508,10 +509,5 @@ function normalizeColor(hexCode) {
   * Gradient.toggleColor(index)
   * Gradient.updateFrequency(freq)
   */
-  
-  
-  
-  
-  
-  
-  
+
+}
